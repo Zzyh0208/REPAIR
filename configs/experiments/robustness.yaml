@@ -1,0 +1,14 @@
+extends: ../default.yaml
+
+experiment:
+  type: robustness
+  extractor: topocausal
+  locator: structural
+  perturbations:
+    - name: speed_noise_2
+      speed_noise_std: 2.0
+    - name: missing_20
+      missing_rate: 0.2
+    - name: edge_drop_10
+      edge_drop_rate: 0.1
+

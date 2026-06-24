@@ -1,0 +1,13 @@
+{
+  "directed": true,
+  "nodes": [
+    {"id": "v3", "attrs": {}},
+    {"id": "v4", "attrs": {}},
+    {"id": "v5", "attrs": {}}
+  ],
+  "edges": [
+    {"source": "v3", "target": "v4", "attrs": {}},
+    {"source": "v4", "target": "v5", "attrs": {}}
+  ]
+}
+

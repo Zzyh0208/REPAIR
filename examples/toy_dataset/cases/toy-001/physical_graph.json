@@ -1,0 +1,19 @@
+{
+  "directed": true,
+  "nodes": [
+    {"id": "v1", "attrs": {"road_type": "arterial"}},
+    {"id": "v2", "attrs": {"road_type": "arterial"}},
+    {"id": "v3", "attrs": {"road_type": "arterial"}},
+    {"id": "v4", "attrs": {"road_type": "collector"}},
+    {"id": "v5", "attrs": {"road_type": "collector"}},
+    {"id": "v6", "attrs": {"road_type": "collector"}}
+  ],
+  "edges": [
+    {"source": "v1", "target": "v3", "attrs": {}},
+    {"source": "v2", "target": "v3", "attrs": {}},
+    {"source": "v3", "target": "v4", "attrs": {}},
+    {"source": "v4", "target": "v5", "attrs": {}},
+    {"source": "v4", "target": "v6", "attrs": {}}
+  ]
+}
+

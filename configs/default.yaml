@@ -1,0 +1,30 @@
+seed: 2026
+
+llm:
+  backend: openrouter
+  model: qwen/qwen3-235b-a22b
+  timeout_s: 60
+  max_retries: 2
+  temperature: 0.1
+  enabled_for_dpa: false
+  enabled_for_sra: false
+  enabled_for_locator: false
+
+repair:
+  max_cycles: 30
+  stagnation_patience: 3
+  capacity: 60
+  retrieval_threshold: 0.78
+  auto_admit_threshold: 5.0
+  beta_side_effect_bound: 3
+  anomaly_threshold: 0.18
+  onset_gap: 2.0
+  max_expand_depth: 5
+
+evaluation:
+  top_k: [1, 3, 5]
+
+output:
+  save_cycle_graphs: true
+  save_cycle_traces: true
+

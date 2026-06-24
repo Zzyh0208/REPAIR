@@ -1,0 +1,13 @@
+extends: ../default.yaml
+
+experiment:
+  type: ablation
+  extractor: topocausal
+  locator: structural
+  variants:
+    - full
+    - no_dsl
+    - no_llm
+    - no_gc
+    - no_parallel_partition
+

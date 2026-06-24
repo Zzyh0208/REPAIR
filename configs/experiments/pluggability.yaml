@@ -1,0 +1,12 @@
+extends: ../default.yaml
+
+experiment:
+  type: pluggability
+  extractors:
+    - topocausal
+    - granger
+  locators:
+    - structural
+    - pagerank
+    - earliest_onset
+
